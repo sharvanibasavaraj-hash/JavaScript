@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DOM Example</title>
+</head>
+<body>
+
+<h1 class="title">Hello</h1>
+
+<p class="message">Original message</p>
+
+<button class="btn">Change</button>
+
+<script>
+
+let title = document.querySelector(".title");
+let message = document.querySelector(".message");
+let button = document.querySelector(".btn");
+
+title.textContent = "Welcome";
+
+message.textContent = "JavaScript changed this";
+
+title.style.color = "blue";
+
+</script>
+
+</body>
+</html>
